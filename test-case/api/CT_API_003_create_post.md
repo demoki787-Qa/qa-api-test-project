@@ -15,3 +15,14 @@ Resultado esperado:
 Status code 201
 Novo registro criado
 Retorno contendo ID do novo post
+
+Resultado obtido:
+Status code 201
+Novo post criado com ID 101
+Body retornado:
+{
+ "id": 101,
+ "title": "Teste QA",
+ "body": "Testando API",
+ "userId": 1
+}

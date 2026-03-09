@@ -14,8 +14,9 @@ Passos:
 Resultado esperado:
 Status code 200
 Lista de posts retornada
-Campos presentes:
-userId
-id
-title
-body
+Campos presentes: userId, id, title, body
+
+Resultado obtido:
+Status code 200
+Retornou 100 posts
+Todos os campos (userId, id, title, body) presentes

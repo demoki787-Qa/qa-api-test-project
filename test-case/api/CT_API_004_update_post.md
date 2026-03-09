@@ -14,3 +14,14 @@ Passos:
 Resultado esperado:
 Status code 200
 Dados do post atualizados corretamente
+
+Resultado obtido:
+Status code 200
+Post atualizado com sucesso
+Body retornado:
+{
+ "id": 1,
+ "title": "Post atualizado",
+ "body": "Conteúdo atualizado",
+ "userId": 1
+}

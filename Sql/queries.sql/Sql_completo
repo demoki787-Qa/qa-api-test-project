@@ -1,0 +1,26 @@
+-- =========================================
+-- QA JSONPlaceholder - SQL completo
+-- =========================================
+
+-- Criar tabela
+CREATE TABLE posts (
+    userId INT,
+    id INT PRIMARY KEY,
+    title TEXT,
+    body TEXT
+);
+
+-- Inserir dados simulados
+INSERT INTO posts (userId, id, title, body) VALUES
+(1, 1, 'Teste QA 1', 'Conteúdo do post 1'),
+(1, 2, 'Teste QA 2', 'Conteúdo do post 2'),
+(2, 3, '', 'Post com title vazio'), -- Bug simulado
+(2, 4, 'Teste QA 4', 'Conteúdo do post 4'),
+(3, 5, 'Teste QA 5', 'Conteúdo do post 5');
+
+-- Consultas / análises
+SELECT * FROM posts;
+SELECT * FROM posts WHERE userId = 1;
+SELECT COUNT(*) AS total_posts FROM posts;
+SELECT * FROM posts WHERE title IS NULL OR title = '';
+SELECT * FROM posts WHERE body LIKE '%QA%';

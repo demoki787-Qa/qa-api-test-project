@@ -13,8 +13,14 @@ Passos:
 
 Resultado esperado:
 Status code 200
-Retorno de objeto JSON contendo:
-userId
-id
-title
-body
+Objeto JSON retornado contendo: userId, id, title, body
+
+Resultado obtido:
+Status code 200
+Objeto JSON retornado corretamente:
+{
+ "userId": 1,
+ "id": 1,
+ "title": "sunt aut facere",
+ "body": "quia et suscipit"
+} 

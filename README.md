@@ -16,3 +16,7 @@ Demonstrar habilidades em testes manuais de API, documentação de casos de test
 - bug-reports → registro de bugs
 - evidence → evidências dos testes
 - sql → consultas SQL
+
+ ## Resultados
+- Bug encontrado: post com title vazio
+- Todas as queries foram testadas no DB Fiddle
